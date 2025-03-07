@@ -40,11 +40,14 @@
         .icon {
             width: 43px;
             height: 43px;
+            transition: transform 0.3s ease, border-radius 0.3s ease;
+            border-radius: 10px; /* Adjust the curve as needed */
             transition: transform 0.3s ease;
         }
 
         .icon:hover {
             transform: scale(1.1);
+            border-radius: 15px;
         }
 
         /* Responsive Design */
@@ -55,6 +58,8 @@
             .icon {
                 width: 43px;
                 height: 43px;
+                transition: transform 0.3s ease, border-radius 0.3s ease;
+    border-radius: 10px; /* Adjust the curve as needed */
             }
         }
     </style>
